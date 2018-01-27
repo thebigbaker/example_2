@@ -23,7 +23,7 @@ body{
   color:#fff;
 }
 
-.container{
+header .container{
   max-width:960px;
   padding-left:1rem;
   padding-right:1rem;
