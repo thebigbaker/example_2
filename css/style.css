@@ -6,6 +6,14 @@ body{
   margin:0;
   overflow-x:hidden;
 }
+
+.navbar-fixed {
+  opacity: 0.8;
+}
+
+.brand-logo {
+  display: block;
+}
  
 /* Video Header */
 .v-header{
@@ -20,7 +28,7 @@ body{
   padding-left:1rem;
   padding-right:1rem;
   margin:auto;
-  text-align:center;
+  
 }
 
 .fullscreen-video-wrap{
@@ -52,11 +60,7 @@ body{
   z-index:2;
 }
 
-.navbar-fixed {
-  opacity: 0.8;
-}
-
-.header-content h1{
+.header-content h1 {
   font-size:50px;
   margin-bottom:0;
   font-weight: bold;
@@ -70,13 +74,6 @@ body{
   padding-bottom: 2rem;
 }
 
-.btn{
-  background: #34b3a0;
-  color:#fff;
-  font-size:1.2rem;
-  padding: 1rem 2rem;
-  text-decoration: none;
-}
 
 .section{
   padding:20px 0;
@@ -97,11 +94,11 @@ body{
 
 /* Nav */
 .brand-logo {
-  margin-left: 30px;
+  margin-left: 20px;
 }
 
 .right {
-  margin-right: 30px;
+  padding-right: 20px;
 }
 
 
